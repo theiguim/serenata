@@ -6,7 +6,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-image: url(bkg1.jpg);
+    background-image: url(bkg.jpg);
     background-position: center;
     background-size: auto 150%;
     background-repeat: no-repeat;
@@ -17,17 +17,22 @@ body{
 .headerDesktop, .headerMobile{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     color: white;
 
-    padding: 80px 0;
+    padding: 80px 100px;
+    box-sizing: border-box;
 
     font-size: 20px;
     font-weight: 100;
-    /* font-family: sans-serif; */
+   
 
+}
+
+.headerDesktop>a{
+    width: 300px;
 }
 
 a{
@@ -41,6 +46,8 @@ a{
     border: 1px solid white;
     border-radius: 50%;
     padding: 20px;
+
+   
 }
 
 .headerMobile{
