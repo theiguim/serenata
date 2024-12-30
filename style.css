@@ -30,9 +30,11 @@ body{
 
 }
 
-p{
+a{
 
     font-style: italic;
+    color: white;
+    text-decoration: none;
 }
 
 .headerDesktop>div, .headerMobile>div{
